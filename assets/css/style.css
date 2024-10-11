@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 100%;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: ;
+    font-weight: bold;
+    font-family: "Carter One";
+
+}
+
+.navlogo {
+    background-image: url(../img/planches.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav .navdir {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 60px;
+
+}
+
+
+h1 {
+    font-family: "Carter One", serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h3 {
+    color: brown;
+}
+
+hr {
+    width: 30px;
+    height: 7px;
+    background-color: rgb(180, 68, 53);
+    margin-top: -10px;
+}
+
+.asperStory {
+    display: flex;
+    height: 600px;
+    background-color: whitesmoke;
+
+}
+
+.story {
+    height: 100%;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/motif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    margin: auto 20px;
+}
+
+.Faregraine {
+    display: flex;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.graines {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/motif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    margin: auto 20px;
+}
+
+.graines img {
+    height: 20%;
+    width: auto;
+
+}
+
+
+
+
+.localdistillation {
+    display: flex;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.distillation {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/motif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    margin: auto 20px;
+}
+
+.distillation img {
+    height: 20%;
+    width: auto;
+
+}
+
+.oeuf {
+    background-image: url(../img/oeuf.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+
+}
+
+footer {
+    display: flex;
+    background-image: url(../img/motif.jpg);
+    background-size: cover;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+}
+
+.adress {
+    margin: 0 0 0 40px;
+}
+
+.icons {
+    margin: 0 40px 20px 0;
+}
