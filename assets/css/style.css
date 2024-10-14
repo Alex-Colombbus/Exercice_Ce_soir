@@ -6,34 +6,40 @@ body {
     min-width: 1394px;
     margin: auto;
     font-family: roboto;
+    border: 1px solid black;
 
 
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-body p{
+body p {
     font-weight: 400;
 }
 
 nav a {
     text-decoration: none;
     color: black;
-    
     font-weight: bold;
     font-family: "Carter One";
 
+    border: 2px solid transparent;
+    transition: 0.3;
+    border-radius: 20px;
+    padding: 7px;
+    text-align: center;
+
 }
 
-nav a:hover{
+nav a:hover {
     border: 2px solid rgb(238, 26, 95);
     border-radius: 20px;
-    padding: 4px;
-    
+    padding: 7px;
     text-align: center;
+
 }
 
 .navlogo {
@@ -67,6 +73,17 @@ nav .navdir {
     margin: 60px;
     padding: 100px;
 
+
+}
+
+.logo img {
+    height: 170px;
+    transition: 0.4s;
+}
+
+.logo img:hover {
+    height: 300px;
+    transform: rotate(359deg);
 }
 
 
@@ -82,7 +99,7 @@ h2 {
 }
 
 h3 {
-    color:rgb(238, 26, 95);
+    color: rgb(238, 26, 95);
     text-transform: uppercase;
 }
 
@@ -90,6 +107,7 @@ hr {
     width: 30px;
     height: 7px;
     background-color: rgb(238, 26, 95);
+    border-color: transparent;
     margin-top: -10px;
     border-radius: 2px;
 }
@@ -150,9 +168,7 @@ hr {
     background-color: whitesmoke;
 }
 
-.localdistillation img{
-   
-}
+.localdistillation img {}
 
 .distillation {
     height: 100%;
@@ -190,6 +206,7 @@ footer {
     background-size: cover;
     justify-content: space-between;
     align-items: flex-end;
+    height: 300px;
 
 
 }
@@ -197,15 +214,24 @@ footer {
 
 
 .adress {
-    margin: 0 0 0 40px;
-    
+
+    margin: auto auto auto 40px;
+
 }
 
 .adress1 {
     font-weight: 800;
+    margin-top: 60px;
 }
 
 .icons {
+    display: flex;
+    gap: 8px;
     margin: 0 40px 20px 0;
+
 }
 
+.icons a {
+    color: rgb(238, 26, 95);
+
+}
