@@ -74,11 +74,14 @@ nav .navdir {
     padding: 100px;
 
 
+
 }
 
 .logo img {
-    height: 170px;
-    transition: 0.4s;
+    height: 200px;
+    transition: 0.5s;
+    background: linear-gradient(45deg, transparent, transparent 50%, rgb(238, 26, 95) 50%);
+
 }
 
 .logo img:hover {
