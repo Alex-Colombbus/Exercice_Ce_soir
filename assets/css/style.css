@@ -1,3 +1,7 @@
+html {
+    /* font-size: 40px; */
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -10,6 +14,7 @@ body {
 
 
 }
+
 
 a {
     text-decoration: none;
@@ -28,16 +33,16 @@ nav a {
 
     border: 2px solid transparent;
     transition: 0.3;
-    border-radius: 20px;
-    padding: 7px;
+    border-radius: 2rem;
+    padding: 0.7rem;
     text-align: center;
 
 }
 
 nav a:hover {
     border: 2px solid rgb(238, 26, 95);
-    border-radius: 20px;
-    padding: 7px;
+    border-radius: 2rem;
+    padding: 0.7rem;
     text-align: center;
 
 }
@@ -53,14 +58,15 @@ nav a:hover {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 nav .navdir {
     display: flex;
     align-items: center;
-    gap: 70px;
+    margin-right: 2rem;
+    gap: 6rem;
 
 }
 
@@ -70,22 +76,22 @@ nav .navdir {
     justify-content: center;
     height: 100%;
     align-items: center;
-    margin: 60px;
-    padding: 100px;
+    margin: 6rem;
+    padding: 9rem;
 
 
 
 }
 
 .logo img {
-    height: 200px;
+    height: 13rem;
     transition: 0.5s;
     background: linear-gradient(45deg, transparent, transparent 50%, rgb(238, 26, 95) 50%);
 
 }
 
 .logo img:hover {
-    height: 300px;
+    height: 25rem;
     transform: rotate(359deg);
 }
 
@@ -93,7 +99,7 @@ nav .navdir {
 h1 {
     font-family: "Carter One", serif;
     font-size: 3rem;
-    margin: 0;
+    margin: 0 4rem;
 }
 
 h2 {
@@ -107,8 +113,8 @@ h3 {
 }
 
 hr {
-    width: 30px;
-    height: 7px;
+    width: 2rem;
+    height: 0.5rem;
     background-color: rgb(238, 26, 95);
     border-color: transparent;
     margin-top: -10px;
@@ -124,7 +130,7 @@ hr {
 
 .story {
     height: 100%;
-    min-width: 30%;
+    /* min-width: 30%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +139,7 @@ hr {
     background-size: cover;
 
     text-align: center;
-    margin: auto 20px;
+    margin: auto 2rem;
 }
 
 .Faregraine {
@@ -153,7 +159,7 @@ hr {
     background-size: cover;
 
     text-align: center;
-    margin: auto 20px;
+    margin: auto 2rem;
 }
 
 .graines img {
@@ -184,7 +190,7 @@ hr {
     background-size: cover;
 
     text-align: center;
-    margin: auto 20px;
+    margin: auto 2rem;
 }
 
 .distillation img {
@@ -224,12 +230,12 @@ footer {
 
 .adress1 {
     font-weight: 800;
-    margin-top: 60px;
+    margin-top: 5rem;
 }
 
 .icons {
     display: flex;
-    gap: 8px;
+    gap: 0.7rem;
     margin: 0 40px 20px 0;
 
 }
