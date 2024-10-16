@@ -32,7 +32,7 @@ nav a {
     font-family: "Carter One";
 
     border: 2px solid transparent;
-    transition: 0.3;
+    transition: 0.2s;
     border-radius: 2rem;
     padding: 0.7rem;
     text-align: center;
@@ -85,7 +85,7 @@ nav .navdir {
 
 .logo img {
     height: 13rem;
-    transition: 0.5s;
+    transition: 0.8s;
     background: linear-gradient(45deg, transparent, transparent 50%, rgb(238, 26, 95) 50%);
 
 }
@@ -93,6 +93,10 @@ nav .navdir {
 .logo img:hover {
     height: 25rem;
     transform: rotate(359deg);
+    background: none;
+    background: rgb(238, 26, 95, 0.9);
+    border-radius: 50%;
+    border: 1rem solid black;
 }
 
 
